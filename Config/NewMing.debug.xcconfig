@@ -1,0 +1,10 @@
+//
+//  NewMing.xcconfig
+//  NewMing
+//
+//  Created by Fanming on 15/7/22.
+//  Copyright (c) 2015年 FanMing. All rights reserved.
+//
+#include "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"
+
+HEADER_SEARCH_PATHS = ${SRCROOT}/Pods/Pods.debug.xcconfig/$(HEADER_SEARCH_PATHS) $(SDKROOT)/usr/include/libxml2

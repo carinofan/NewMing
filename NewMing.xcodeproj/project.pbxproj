@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C585C101B8AC1B00095DAA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C0F1B8AC1B00095DAA8 /* main.m */; };
+		2C585C131B8AC1B00095DAA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C121B8AC1B00095DAA8 /* AppDelegate.m */; };
+		2C585C161B8AC1B00095DAA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C151B8AC1B00095DAA8 /* ViewController.m */; };
+		2C585C191B8AC1B00095DAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C171B8AC1B00095DAA8 /* Main.storyboard */; };
+		2C585C1B1B8AC1B00095DAA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C1A1B8AC1B00095DAA8 /* Images.xcassets */; };
+		2C585C1E1B8AC1B00095DAA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C1C1B8AC1B00095DAA8 /* LaunchScreen.xib */; };
+		2C585C2A1B8AC1B00095DAA8 /* AFNetworkManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C291B8AC1B00095DAA8 /* AFNetworkManagerTests.m */; };
+		2C585C331B8AC20C0095DAA8 /* HTTPMagager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C321B8AC20C0095DAA8 /* HTTPMagager.m */; };
+		2C585C3D1B8AC3140095DAA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C3C1B8AC3140095DAA8 /* main.m */; };
+		2C585C401B8AC3140095DAA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C3F1B8AC3140095DAA8 /* AppDelegate.m */; };
+		2C585C431B8AC3140095DAA8 /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C421B8AC3140095DAA8 /* ManagerViewController.m */; };
+		2C585C461B8AC3140095DAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C441B8AC3140095DAA8 /* Main.storyboard */; };
+		2C585C481B8AC3140095DAA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C471B8AC3140095DAA8 /* Images.xcassets */; };
+		2C585C4B1B8AC3140095DAA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C585C491B8AC3140095DAA8 /* LaunchScreen.xib */; };
+		2C585C571B8AC3140095DAA8 /* ControllerContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C561B8AC3140095DAA8 /* ControllerContainerTests.m */; };
+		2C585C631B8AF4240095DAA8 /* ModuleRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C621B8AF4240095DAA8 /* ModuleRootViewController.m */; };
+		2C585C661B8AF5D30095DAA8 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C585C651B8AF5D30095DAA8 /* CustomViewController.m */; };
 		2CFA0BEA1B5F8216005B119F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA0BE91B5F8216005B119F /* main.m */; };
 		2CFA0BED1B5F8216005B119F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA0BEC1B5F8216005B119F /* AppDelegate.m */; };
 		2CFA0BF01B5F8216005B119F /* NewMing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA0BEE1B5F8216005B119F /* NewMing.xcdatamodeld */; };
@@ -15,9 +32,24 @@
 		2CFA0BF81B5F8216005B119F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA0BF71B5F8216005B119F /* Images.xcassets */; };
 		2CFA0BFB1B5F8216005B119F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA0BF91B5F8216005B119F /* LaunchScreen.xib */; };
 		2CFA0C071B5F8216005B119F /* NewMingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA0C061B5F8216005B119F /* NewMingTests.m */; };
+		3BC807A3DF63DA149372A0C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371B4260A9AABB71117D1BD1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C585C241B8AC1B00095DAA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFA0BDC1B5F8216005B119F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C585C0A1B8AC1B00095DAA8;
+			remoteInfo = AFNetworkManager;
+		};
+		2C585C511B8AC3140095DAA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFA0BDC1B5F8216005B119F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C585C371B8AC3140095DAA8;
+			remoteInfo = ControllerContainer;
+		};
 		2CFA0C011B5F8216005B119F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CFA0BDC1B5F8216005B119F /* Project object */;
@@ -27,7 +59,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2CFA0C3B1B5F9053005B119F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C585C0B1B8AC1B00095DAA8 /* AFNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C585C0E1B8AC1B00095DAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C585C0F1B8AC1B00095DAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C585C111B8AC1B00095DAA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C585C121B8AC1B00095DAA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C585C141B8AC1B00095DAA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C585C151B8AC1B00095DAA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C585C181B8AC1B00095DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C585C1A1B8AC1B00095DAA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C585C1D1B8AC1B00095DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C585C231B8AC1B00095DAA8 /* AFNetworkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C585C281B8AC1B00095DAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C585C291B8AC1B00095DAA8 /* AFNetworkManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkManagerTests.m; sourceTree = "<group>"; };
+		2C585C311B8AC20C0095DAA8 /* HTTPMagager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMagager.h; sourceTree = "<group>"; };
+		2C585C321B8AC20C0095DAA8 /* HTTPMagager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMagager.m; sourceTree = "<group>"; };
+		2C585C381B8AC3140095DAA8 /* ControllerContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C585C3B1B8AC3140095DAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C585C3C1B8AC3140095DAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C585C3E1B8AC3140095DAA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C585C3F1B8AC3140095DAA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C585C411B8AC3140095DAA8 /* ManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		2C585C421B8AC3140095DAA8 /* ManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		2C585C451B8AC3140095DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C585C471B8AC3140095DAA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C585C4A1B8AC3140095DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C585C501B8AC3140095DAA8 /* ControllerContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C585C551B8AC3140095DAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C585C561B8AC3140095DAA8 /* ControllerContainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerContainerTests.m; sourceTree = "<group>"; };
+		2C585C611B8AF4240095DAA8 /* ModuleRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleRootViewController.h; sourceTree = "<group>"; };
+		2C585C621B8AF4240095DAA8 /* ModuleRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleRootViewController.m; sourceTree = "<group>"; };
+		2C585C641B8AF5D30095DAA8 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		2C585C651B8AF5D30095DAA8 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		2CFA0BE41B5F8216005B119F /* NewMing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFA0BE81B5F8216005B119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFA0BE91B5F8216005B119F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,13 +119,57 @@
 		2CFA0C001B5F8216005B119F /* NewMingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewMingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFA0C051B5F8216005B119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFA0C061B5F8216005B119F /* NewMingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewMingTests.m; sourceTree = "<group>"; };
+		2CFA0C111B5F8453005B119F /* NewMing.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = NewMing.debug.xcconfig; sourceTree = "<group>"; };
+		2CFA0C121B5F8478005B119F /* NewMing.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = NewMing.release.xcconfig; sourceTree = "<group>"; };
+		2CFA0C1A1B5F9053005B119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFA0C1B1B5F9053005B119F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2CFA0C1C1B5F9053005B119F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		2CFA0C1D1B5F9053005B119F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		2CFA0C1F1B5F9053005B119F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		2CFA0C201B5F9053005B119F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		2CFA0C221B5F9053005B119F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CFA0C2C1B5F9053005B119F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFA0C2E1B5F9053005B119F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2CFA0C301B5F9053005B119F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		371B4260A9AABB71117D1BD1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38AE56F9918FBA996E3592D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D01FE6602943452C9E0679 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C585C081B8AC1B00095DAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C201B8AC1B00095DAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C351B8AC3140095DAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C4D1B8AC3140095DAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CFA0BE11B5F8216005B119F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC807A3DF63DA149372A0C7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +183,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082004EC8F39C9B0D4FCD50B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				371B4260A9AABB71117D1BD1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C585C0C1B8AC1B00095DAA8 /* AFNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C111B8AC1B00095DAA8 /* AppDelegate.h */,
+				2C585C121B8AC1B00095DAA8 /* AppDelegate.m */,
+				2C585C141B8AC1B00095DAA8 /* ViewController.h */,
+				2C585C151B8AC1B00095DAA8 /* ViewController.m */,
+				2C585C311B8AC20C0095DAA8 /* HTTPMagager.h */,
+				2C585C321B8AC20C0095DAA8 /* HTTPMagager.m */,
+				2C585C171B8AC1B00095DAA8 /* Main.storyboard */,
+				2C585C1A1B8AC1B00095DAA8 /* Images.xcassets */,
+				2C585C1C1B8AC1B00095DAA8 /* LaunchScreen.xib */,
+				2C585C0D1B8AC1B00095DAA8 /* Supporting Files */,
+			);
+			path = AFNetworkManager;
+			sourceTree = "<group>";
+		};
+		2C585C0D1B8AC1B00095DAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C0E1B8AC1B00095DAA8 /* Info.plist */,
+				2C585C0F1B8AC1B00095DAA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C585C261B8AC1B00095DAA8 /* AFNetworkManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C291B8AC1B00095DAA8 /* AFNetworkManagerTests.m */,
+				2C585C271B8AC1B00095DAA8 /* Supporting Files */,
+			);
+			path = AFNetworkManagerTests;
+			sourceTree = "<group>";
+		};
+		2C585C271B8AC1B00095DAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C281B8AC1B00095DAA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C585C391B8AC3140095DAA8 /* ControllerContainer */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C3E1B8AC3140095DAA8 /* AppDelegate.h */,
+				2C585C3F1B8AC3140095DAA8 /* AppDelegate.m */,
+				2C585C411B8AC3140095DAA8 /* ManagerViewController.h */,
+				2C585C421B8AC3140095DAA8 /* ManagerViewController.m */,
+				2C585C611B8AF4240095DAA8 /* ModuleRootViewController.h */,
+				2C585C621B8AF4240095DAA8 /* ModuleRootViewController.m */,
+				2C585C641B8AF5D30095DAA8 /* CustomViewController.h */,
+				2C585C651B8AF5D30095DAA8 /* CustomViewController.m */,
+				2C585C441B8AC3140095DAA8 /* Main.storyboard */,
+				2C585C471B8AC3140095DAA8 /* Images.xcassets */,
+				2C585C491B8AC3140095DAA8 /* LaunchScreen.xib */,
+				2C585C3A1B8AC3140095DAA8 /* Supporting Files */,
+			);
+			path = ControllerContainer;
+			sourceTree = "<group>";
+		};
+		2C585C3A1B8AC3140095DAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C3B1B8AC3140095DAA8 /* Info.plist */,
+				2C585C3C1B8AC3140095DAA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C585C531B8AC3140095DAA8 /* ControllerContainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C561B8AC3140095DAA8 /* ControllerContainerTests.m */,
+				2C585C541B8AC3140095DAA8 /* Supporting Files */,
+			);
+			path = ControllerContainerTests;
+			sourceTree = "<group>";
+		};
+		2C585C541B8AC3140095DAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C585C551B8AC3140095DAA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		2CFA0BDB1B5F8216005B119F = {
 			isa = PBXGroup;
 			children = (
 				2CFA0BE61B5F8216005B119F /* NewMing */,
 				2CFA0C031B5F8216005B119F /* NewMingTests */,
+				2CFA0C181B5F9053005B119F /* NewMing WatchKit Extension */,
+				2CFA0C2A1B5F9053005B119F /* NewMing WatchKit App */,
+				2C585C0C1B8AC1B00095DAA8 /* AFNetworkManager */,
+				2C585C261B8AC1B00095DAA8 /* AFNetworkManagerTests */,
+				2C585C391B8AC3140095DAA8 /* ControllerContainer */,
+				2C585C531B8AC3140095DAA8 /* ControllerContainerTests */,
 				2CFA0BE51B5F8216005B119F /* Products */,
+				9B33995028ADE03E05B59653 /* Pods */,
+				2CFA0C101B5F842E005B119F /* Config */,
+				082004EC8F39C9B0D4FCD50B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +302,10 @@
 			children = (
 				2CFA0BE41B5F8216005B119F /* NewMing.app */,
 				2CFA0C001B5F8216005B119F /* NewMingTests.xctest */,
+				2C585C0B1B8AC1B00095DAA8 /* AFNetworkManager.app */,
+				2C585C231B8AC1B00095DAA8 /* AFNetworkManagerTests.xctest */,
+				2C585C381B8AC3140095DAA8 /* ControllerContainer.app */,
+				2C585C501B8AC3140095DAA8 /* ControllerContainerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,16 +352,147 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2CFA0C101B5F842E005B119F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA0C111B5F8453005B119F /* NewMing.debug.xcconfig */,
+				2CFA0C121B5F8478005B119F /* NewMing.release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2CFA0C181B5F9053005B119F /* NewMing WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA0C1C1B5F9053005B119F /* InterfaceController.h */,
+				2CFA0C1D1B5F9053005B119F /* InterfaceController.m */,
+				2CFA0C1F1B5F9053005B119F /* NotificationController.h */,
+				2CFA0C201B5F9053005B119F /* NotificationController.m */,
+				2CFA0C221B5F9053005B119F /* Images.xcassets */,
+				2CFA0C191B5F9053005B119F /* Supporting Files */,
+			);
+			path = "NewMing WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2CFA0C191B5F9053005B119F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA0C1A1B5F9053005B119F /* Info.plist */,
+				2CFA0C1B1B5F9053005B119F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CFA0C2A1B5F9053005B119F /* NewMing WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA0C2D1B5F9053005B119F /* Interface.storyboard */,
+				2CFA0C301B5F9053005B119F /* Images.xcassets */,
+				2CFA0C2B1B5F9053005B119F /* Supporting Files */,
+			);
+			path = "NewMing WatchKit App";
+			sourceTree = "<group>";
+		};
+		2CFA0C2B1B5F9053005B119F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA0C2C1B5F9053005B119F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B33995028ADE03E05B59653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38AE56F9918FBA996E3592D /* Pods.debug.xcconfig */,
+				E3D01FE6602943452C9E0679 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2C585C0A1B8AC1B00095DAA8 /* AFNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C585C2F1B8AC1B00095DAA8 /* Build configuration list for PBXNativeTarget "AFNetworkManager" */;
+			buildPhases = (
+				2C585C071B8AC1B00095DAA8 /* Sources */,
+				2C585C081B8AC1B00095DAA8 /* Frameworks */,
+				2C585C091B8AC1B00095DAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkManager;
+			productName = AFNetworkManager;
+			productReference = 2C585C0B1B8AC1B00095DAA8 /* AFNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C585C221B8AC1B00095DAA8 /* AFNetworkManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C585C301B8AC1B00095DAA8 /* Build configuration list for PBXNativeTarget "AFNetworkManagerTests" */;
+			buildPhases = (
+				2C585C1F1B8AC1B00095DAA8 /* Sources */,
+				2C585C201B8AC1B00095DAA8 /* Frameworks */,
+				2C585C211B8AC1B00095DAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C585C251B8AC1B00095DAA8 /* PBXTargetDependency */,
+			);
+			name = AFNetworkManagerTests;
+			productName = AFNetworkManagerTests;
+			productReference = 2C585C231B8AC1B00095DAA8 /* AFNetworkManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C585C371B8AC3140095DAA8 /* ControllerContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C585C581B8AC3140095DAA8 /* Build configuration list for PBXNativeTarget "ControllerContainer" */;
+			buildPhases = (
+				2C585C341B8AC3140095DAA8 /* Sources */,
+				2C585C351B8AC3140095DAA8 /* Frameworks */,
+				2C585C361B8AC3140095DAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControllerContainer;
+			productName = ControllerContainer;
+			productReference = 2C585C381B8AC3140095DAA8 /* ControllerContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C585C4F1B8AC3140095DAA8 /* ControllerContainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C585C5B1B8AC3140095DAA8 /* Build configuration list for PBXNativeTarget "ControllerContainerTests" */;
+			buildPhases = (
+				2C585C4C1B8AC3140095DAA8 /* Sources */,
+				2C585C4D1B8AC3140095DAA8 /* Frameworks */,
+				2C585C4E1B8AC3140095DAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C585C521B8AC3140095DAA8 /* PBXTargetDependency */,
+			);
+			name = ControllerContainerTests;
+			productName = ControllerContainerTests;
+			productReference = 2C585C501B8AC3140095DAA8 /* ControllerContainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2CFA0BE31B5F8216005B119F /* NewMing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CFA0C0A1B5F8216005B119F /* Build configuration list for PBXNativeTarget "NewMing" */;
 			buildPhases = (
+				9D77F9F67B7C5D94CD419078 /* Check Pods Manifest.lock */,
 				2CFA0BE01B5F8216005B119F /* Sources */,
 				2CFA0BE11B5F8216005B119F /* Frameworks */,
 				2CFA0BE21B5F8216005B119F /* Resources */,
+				06F70B0C2D840BCFE06E3DDE /* Copy Pods Resources */,
+				2CFA0C3B1B5F9053005B119F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -169,6 +530,20 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = FanMing;
 				TargetAttributes = {
+					2C585C0A1B8AC1B00095DAA8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2C585C221B8AC1B00095DAA8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2C585C0A1B8AC1B00095DAA8;
+					};
+					2C585C371B8AC3140095DAA8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2C585C4F1B8AC3140095DAA8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2C585C371B8AC3140095DAA8;
+					};
 					2CFA0BE31B5F8216005B119F = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -193,11 +568,49 @@
 			targets = (
 				2CFA0BE31B5F8216005B119F /* NewMing */,
 				2CFA0BFF1B5F8216005B119F /* NewMingTests */,
+				2C585C0A1B8AC1B00095DAA8 /* AFNetworkManager */,
+				2C585C221B8AC1B00095DAA8 /* AFNetworkManagerTests */,
+				2C585C371B8AC3140095DAA8 /* ControllerContainer */,
+				2C585C4F1B8AC3140095DAA8 /* ControllerContainerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C585C091B8AC1B00095DAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C191B8AC1B00095DAA8 /* Main.storyboard in Resources */,
+				2C585C1E1B8AC1B00095DAA8 /* LaunchScreen.xib in Resources */,
+				2C585C1B1B8AC1B00095DAA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C211B8AC1B00095DAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C361B8AC3140095DAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C461B8AC3140095DAA8 /* Main.storyboard in Resources */,
+				2C585C4B1B8AC3140095DAA8 /* LaunchScreen.xib in Resources */,
+				2C585C481B8AC3140095DAA8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C4E1B8AC3140095DAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CFA0BE21B5F8216005B119F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,7 +630,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06F70B0C2D840BCFE06E3DDE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D77F9F67B7C5D94CD419078 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2C585C071B8AC1B00095DAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C331B8AC20C0095DAA8 /* HTTPMagager.m in Sources */,
+				2C585C161B8AC1B00095DAA8 /* ViewController.m in Sources */,
+				2C585C131B8AC1B00095DAA8 /* AppDelegate.m in Sources */,
+				2C585C101B8AC1B00095DAA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C1F1B8AC1B00095DAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C2A1B8AC1B00095DAA8 /* AFNetworkManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C341B8AC3140095DAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C431B8AC3140095DAA8 /* ManagerViewController.m in Sources */,
+				2C585C661B8AF5D30095DAA8 /* CustomViewController.m in Sources */,
+				2C585C401B8AC3140095DAA8 /* AppDelegate.m in Sources */,
+				2C585C3D1B8AC3140095DAA8 /* main.m in Sources */,
+				2C585C631B8AF4240095DAA8 /* ModuleRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C585C4C1B8AC3140095DAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C585C571B8AC3140095DAA8 /* ControllerContainerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CFA0BE01B5F8216005B119F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,6 +725,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C585C251B8AC1B00095DAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C585C0A1B8AC1B00095DAA8 /* AFNetworkManager */;
+			targetProxy = 2C585C241B8AC1B00095DAA8 /* PBXContainerItemProxy */;
+		};
+		2C585C521B8AC3140095DAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C585C371B8AC3140095DAA8 /* ControllerContainer */;
+			targetProxy = 2C585C511B8AC3140095DAA8 /* PBXContainerItemProxy */;
+		};
 		2CFA0C021B5F8216005B119F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2CFA0BE31B5F8216005B119F /* NewMing */;
@@ -248,6 +743,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C585C171B8AC1B00095DAA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C585C181B8AC1B00095DAA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C585C1C1B8AC1B00095DAA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C585C1D1B8AC1B00095DAA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2C585C441B8AC3140095DAA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C585C451B8AC3140095DAA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C585C491B8AC3140095DAA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C585C4A1B8AC3140095DAA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		2CFA0BF41B5F8216005B119F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,9 +791,137 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		2CFA0C2D1B5F9053005B119F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFA0C2E1B5F9053005B119F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2C585C2B1B8AC1B00095DAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C111B5F8453005B119F /* NewMing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C585C2C1B8AC1B00095DAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C121B5F8478005B119F /* NewMing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C585C2D1B8AC1B00095DAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFNetworkManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworkManager.app/AFNetworkManager";
+			};
+			name = Debug;
+		};
+		2C585C2E1B8AC1B00095DAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFNetworkManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworkManager.app/AFNetworkManager";
+			};
+			name = Release;
+		};
+		2C585C591B8AC3140095DAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C111B5F8453005B119F /* NewMing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ControllerContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C585C5A1B8AC3140095DAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C121B5F8478005B119F /* NewMing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ControllerContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C585C5C1B8AC3140095DAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ControllerContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControllerContainer.app/ControllerContainer";
+			};
+			name = Debug;
+		};
+		2C585C5D1B8AC3140095DAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ControllerContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControllerContainer.app/ControllerContainer";
+			};
+			name = Release;
+		};
 		2CFA0C081B5F8216005B119F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -351,9 +1006,11 @@
 		};
 		2CFA0C0B1B5F8216005B119F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C111B5F8453005B119F /* NewMing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewMing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,9 +1018,21 @@
 		};
 		2CFA0C0C1B5F8216005B119F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFA0C121B5F8478005B119F /* NewMing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64\"",
+					"\"${PODS_ROOT}/Headers/Public/EGOTableViewPullRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+				);
 				INFOPLIST_FILE = NewMing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -406,6 +1075,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C585C2F1B8AC1B00095DAA8 /* Build configuration list for PBXNativeTarget "AFNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C585C2B1B8AC1B00095DAA8 /* Debug */,
+				2C585C2C1B8AC1B00095DAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C585C301B8AC1B00095DAA8 /* Build configuration list for PBXNativeTarget "AFNetworkManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C585C2D1B8AC1B00095DAA8 /* Debug */,
+				2C585C2E1B8AC1B00095DAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C585C581B8AC3140095DAA8 /* Build configuration list for PBXNativeTarget "ControllerContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C585C591B8AC3140095DAA8 /* Debug */,
+				2C585C5A1B8AC3140095DAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C585C5B1B8AC3140095DAA8 /* Build configuration list for PBXNativeTarget "ControllerContainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C585C5C1B8AC3140095DAA8 /* Debug */,
+				2C585C5D1B8AC3140095DAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2CFA0BDF1B5F8216005B119F /* Build configuration list for PBXProject "NewMing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -422,6 +1123,7 @@
 				2CFA0C0C1B5F8216005B119F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFA0C0D1B5F8216005B119F /* Build configuration list for PBXNativeTarget "NewMingTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +1132,7 @@
 				2CFA0C0F1B5F8216005B119F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
