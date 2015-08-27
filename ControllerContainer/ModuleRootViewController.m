@@ -17,39 +17,46 @@
 -(void)loadView{
     [super loadView];
     NSLog(@"1_ModuleRootViewController_loadView");
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"2_ModuleRootViewController_viewDidLoad");
-    self.view.backgroundColor = [UIColor yellowColor];
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     NSLog(@"3_ModuleRootViewController_viewWillAppear");
 }
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    NSLog(@"4_ModuleRootViewController_viewDidAppear");
-}
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    NSLog(@"5_ModuleRootViewController_viewWillDisappear");
-}
-- (void)viewDidDisappear:(BOOL)animated{
-    [super viewDidDisappear:animated];
-    NSLog(@"6_ModuleRootViewController_viewDidDisappear");
-}
+
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    NSLog(@"7_ModuleRootViewController_viewWillLayoutSubviews");
+    NSLog(@"4_ModuleRootViewController_viewWillLayoutSubviews");
 }
 - (void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
-    NSLog(@"8_ModuleRootViewController_viewDidLayoutSubviews");
+    NSLog(@"5_ModuleRootViewController_viewDidLayoutSubviews");
 }
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"6_ModuleRootViewController_viewDidAppear");
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    NSLog(@"7_ModuleRootViewController_viewWillDisappear");
+}
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    NSLog(@"8_ModuleRootViewController_viewDidDisappear");
+}
+
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     NSLog(@"9_ModuleRootViewController_didReceiveMemoryWarning");
+}
+
+-(void)dealloc{
+    NSLog(@"ModuleRootViewController__dealloc");
 }
 
 /*
